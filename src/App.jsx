@@ -81,7 +81,7 @@ function App() {
         <div className=' h-14 p-4 mb-2 bg-white relative'>
           <p className=' overflow-x-auto mr-8 no-scrollbar'>{value}</p>
 
-          <div onClick={handleCopy} className="absolute right-2 top-3 h-10 w-8">
+          <div onClick={handleCopy} className="absolute right-2 top-3 h-10 w-8 hover:cursor-pointer">
             <img src={copyIcon} alt="" />
           </div>
         </div>
